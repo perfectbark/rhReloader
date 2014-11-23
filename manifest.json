@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Rater hub reloader",
+  "version": "0.11",
+  "description": "auto reload ratehub if there is no task.",
+  "web_accessible_resources":
+  [
+    "sounds/airport_tonne.mp3"
+  ],
+  "content_scripts":
+  [
+    {
+      "matches": ["https://www.raterhub.com/evaluation/rater"],
+      "js": ["js/reload.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

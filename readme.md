@@ -1,0 +1,1 @@
+This is a chrome extention that auto reload raterhub if there is no task. It play a alert sound, if there is a task.
