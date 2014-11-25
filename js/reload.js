@@ -3,8 +3,7 @@ r = document.evaluate(path, document, null, XPathResult.BOOLEAN_TYPE, null );
 
 if (r.booleanValue)
 {
-  alert(r.booleanValue);
-  //setTimeout("window.location.href = 'https://www.raterhub.com/evaluation/rater'",30000);
+  setTimeout("window.location.href = 'https://www.raterhub.com/evaluation/rater'",30000);
 }
 else
 {
